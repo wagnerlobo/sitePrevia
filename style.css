@@ -1,8 +1,10 @@
 body {
 
-    background: url(kari-shea-1SAnrIxw5OY-unsplash.jpg);
+    background: url(pexels-magda-ehlers-1054713.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     height: 100vh;
 }
 body, ul {
@@ -147,7 +149,7 @@ ul {
 }
 .footer {
 
-  background-color: #e7e7e7;
+  background-color: transparentS;
   padding: 50px 0;
   bottom: 0;
   position: absolute;
