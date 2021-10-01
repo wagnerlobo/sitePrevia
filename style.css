@@ -133,6 +133,7 @@ a:hover {
 
     max-width: 1170px;
     margin: auto;
+    
 }
 .row {
 
@@ -146,15 +147,21 @@ ul {
 }
 .footer {
 
-    background-color: #e7e7e7;
-    padding: 70px 0;
- 
+  background-color: #e7e7e7;
+  padding: 50px 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+    
     
 }
 .footer-col {
 
     width: 25%;
     padding: 0 15px;
+   
 }
 .footer-col h4 {
 
@@ -164,6 +171,7 @@ ul {
     margin-bottom: 35px;
     font-weight: 500;
     position: relative;
+   
 }
 .footer-col h4::before {
 
@@ -185,11 +193,12 @@ ul {
     font-weight: 300;
     color: #030202;
     display: block;
+    
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover {
 
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding-left: 8px;
 }
 .footer-col .social-links a{
