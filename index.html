@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+</head>
+<body>
+    
+    <header id="header">
+        <a id="logo" href="#">W.LOBO</a>
+        <nav id="nav">
+            <button id="btn-mobile">Menu <span id="hamburger"></span></button>
+            <ul id="menu">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Portifólio</a></li>
+                <li><a href="#">Contato</a></li>
+               
+               
+            </ul>
+        </nav>
+    </header>
+    <section class="footer">
+        <div class="social">
+           <a href=""><i class="fa fa-instagram"></i></a>
+           <a href=""><i class="fa fa-facebook"></i></a>
+           <a href=""><i class="fa fa-github"></i></a>
+           <a href=""><i class="fa fa-whatsapp"></i></a>
+           <a href=""><i class="fa fa-linkedin"></i></a>
+           <a href=""><i class="fa fa-telegram"></i></a>
+           <a href=""><i class="fa fa-youtube"></i></a>
+        </div>
+    </section>
+     <script>
+         const btnMobile = document.getElementById('btn-mobile');
+
+         function toggleMenu() {
+
+            const nav = document.getElementById('nav');
+            nav.classList.toggle('active');
+
+         }
+
+         btnMobile.addEventListener('click', toggleMenu);
+     </script>
+</body>
+</html>
